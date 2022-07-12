@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Gantari:ital,wght@1,200&family=Gentium+Plus&family=Karla:ital,wght@1,300&family=Libre+Baskerville:ital@1&family=Open+Sans&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Gantari:ital,wght@1,200&family=Gentium+Plus&family=Karla:ital,wght@1,300&family=Libre+Baskerville:ital@1&family=Open+Sans&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Gantari:ital,wght@1,200&family=Gentium+Plus&family=Karla:ital,wght@1,300&family=Libre+Baskerville:ital@1&family=Open+Sans&family=Ubuntu:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 1px 0px 10px skyblue;
+    background-color: blue;
+}
+
+.li-items {
+    list-style: none;
+    display: inline;
+    padding-inline: 10px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: skyblue;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-head-text {
+    font-family: 'Karla', sans-serif;
+    color: white;
+    padding-left: 15px;
+}
+
+.home-container {
+    height: 100%;
+    padding-bottom: 70px;
+}
+
+.sub-home-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+}
+
+.home-bg-image {
+    height: 500px;
+}
+
+.first-home-sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    padding-inline: 30px;
+}
+
+.home-head-text {
+    font-size: 30px;
+}
+
+.padding-10px {
+    padding: 10px;
+    margin-block: 10px;
+    font-family: 'Gantari', sans-serif;
+
+}
+
+.first-text::first-letter {
+    font-size: 30px;
+}
+
+.btn-home {
+    font-family: 'Ubuntu', sans-serif;
+    outline: none;
+    border: 2px solid bisque;
+    background-color: rgb(41, 165, 214);
+    color: blue;
+    font-size: 15px;
+}
+
+.main-footer-container {
+    text-align: center;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.social-icons-footer {
+    height: 24px;
+}
+
+.footer-li-items {
+    display: inline;
+    padding-inline: 10px;
+}
+
+.footer-main-img {
+    height: 60px;
+    border-radius: 150%;
+}
+
+.left-foot-sec {
+    display: flex;
+    align-items: center;
+}
+
+.right-foot-sec {
+    display: flex;
+    align-items: center;
+}
+
+.footer-ul-items {
+    padding-inline: 25px;
+}
+
+.footer-text-item {
+    padding-inline: 20px;
+}
+
+.footer-head-text {
+    font-size: 21px;
+}
+
+.footer-desc-text {
+    color: #999;
+}
+
+.mid-foot-sec {
+    display: flex;
+    align-items: center;
+}
+
+.auth-container {
+    padding-block: 82px;
+}
+
+.sub-register-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-block: 25px; */
+    padding-inline: 85px;
+    zoom: 80%;
+}
+
+.form-register-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.register-bg-image {
+    height: 450px;
+}
+
+.label-register {
+    padding-block: 10px;
+    font-size: 15px;
+}
+
+.label-register-inputs {
+    height: 30px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.register-btn {
+    margin-block: 25px;
+    padding-block: 8px;
+    background-color: darkviolet;
+    color: wheat;
+    border: transparent;
+}
+
+.checkbox {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+
+.icon {
+    height: 80px;
+    border-radius: 75%;
+}
+
+.already-auth {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.already-auth-btn {
+    padding-block: 8px;
+    background-color: skyblue;
+    color: blue;
+    border: transparent;
+    text-decoration: none;
+}
+
+.login-toggle-height {
+    padding-bottom: 125px;
+}
+
+.contact-container {
+    padding-block-start: 99px;
+    padding-inline: 185px;
+}
+
+.sub-contact-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 66px;
+}
+
+.contact-form-img {
+    height: 425px;
+}
+
+.form-contact-style {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.contact-li-items {
+    padding-block: 10px;
+}
+
+.contact-inputs {
+    height: 30px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.contact-textarea {
+    height: 70px;
+    margin-bottom: 30px;
+    resize: none;
+}
+
+.contact-submit-btn {
+    padding: 6px;
+}
+
+.left-contact-sec {
+    width: 470px;
+}
+
+.right-contact-sec {
+    width: 650px;
+}
+
+.contact-head-text {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Gantari', sans-serif;
+}
+
+.stories-img {
+    height: 175px;
+}
+
+.story-card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin-inline: 20px;
+    margin-bottom: 35px;
+    box-shadow: 0px 0px 50px 0px skyblue;
+}
+
+.common-padding {
+    padding-bottom: 15px;
+}
+
+.user-desc {
+    display: flex;
+}
+
+.user-desc-text {
+    padding-inline: 25px;
+    color: #999;
+}
+
+.main-stories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-user-sec {
+    padding-block: 50px;
+}
+
+.welcome-user-text {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.sub-story-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 84px;
+}
+
+.stories-id {
+    border: 1 px solid blue;
+    border-radius: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.stories-title {
+    font-family: 'Karla', sans-serif;
+    font-size: 21px;
+}
+
+.stories-desc {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.user-desc-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.post-story-img {
+    height: 350px;
+}
+
+.sub-post-story-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 65px;
+}
+
+.post-story-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.publish_post_labels {
+    padding-block: 10px;
+}
+
+.publish_post_btn {
+    margin-top: 30px;
+    padding: 5px;
+    border: 1px solid skyblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.right-post-sec {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.publish_post_inputs {
+    outline: none;
+    border: 1px solid rgba(111, 103, 103, 0.665);
+    height: 30px;
+}
+
+.left-post-sec {
+    width: 500px;
+}
+
+.sign-in-to-post-stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.up-del-story-container{
+    padding-block: 25px;
+    /* padding: 30px; */
+}
+.up-story-btn{
+    padding-block: 5px;
+    padding-inline: 15px;
+    background-color: skyblue;
+    color: black;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    margin-inline: 10px;
+    font-size: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: none;
+}
+.del-story-btn{
+    padding-block: 5px;
+    padding-inline: 15px;
+    background-color: blue;
+    color: white;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    margin-inline: 10px;
+    font-size: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: none;
+}
+
+.update-story-from-container{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-update-story-from-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update-bg-img{
+    height: 300px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+}
+
+.update-story-inputs{
+    height: 30px;
+}
+
+.update-story-labels{
+    font-size: 20px;
+    font-family: 'Gantari', sans-serif;
+}
+.update-story-btn{
+    padding: 7px;
+    border: none;
+    background-color: violet;
+    margin-top: 20px;
+}
+
+.sign-in-to-post-stories-head-text{
+    font-size: 19px;
+    text-align: center;
+    margin-block: 10px
+}
+
+.error-container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.error-img-404{
+    height: 400px;
+}
+
+@media only screen and (max-device-width: 800px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-head-text {
+        padding-bottom: 10px;
+    }
+
+    .home-bg-image {
+        height: 230px;
+    }
+
+    .sub-home-container {
+        flex-direction: column-reverse;
+        padding-block: 0;
+    }
+
+    .first-home-sec {
+        text-align: center;
+        width: 100%;
+    }
+
+    .main-footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+
+    .left-foot-sec {
+        padding-bottom: 15px;
+    }
+
+    .left-register-container {
+        display: none;
+    }
+
+    .right-contact-sec {
+        display: none;
+    }
+
+    .contact-container {
+        padding-inline: 0;
+    }
+
+    .sub-contact-container {
+        padding-bottom: 30px;
+        display: flex;
+        zoom: 90%;
+        padding: 20px;
+        margin-bottom: 70px;
+    }
+
+    .left-contact-sec {
+        width: 100%;
+    }
+
+    .sub-story-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .story-card {
+        zoom: 90%;
+    }
+
+    .welcome-user-text {
+        font-size: 19px;
+        /* width: 70%; */
+    }
+
+    .welcome-user-sec {
+        text-align: center;
+        width: 90%;
+    }
+
+    .post-story-img {
+        height: 210px;
+    }
+
+    .left-post-sec {
+        width: 100%;
+    }
+    .update-bg-img{
+        height: 180px;
+    }
+    .form-container{
+        width: 100%;
+    }
+    .sign-in-to-post-stories{
+        width: 100%;
+    }
+    .sign-in-to-post-stories-head-text{
+        font-size: 16px;
+    }
+    .post-story-form{
+        zoom: 90%;
+        padding: 10px;
+    }
+    .error-img-404{
+        height: 180px;
+    }
+    .error-container-main{
+        height: 500px;
+    }
+}
